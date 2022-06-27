@@ -1,3 +1,10 @@
+.salom
+{
+  width: 115px;
+  height: 22px;
+  background-color:  #FF7500;
+  color: white;
+}
 .icons
 {
   width: 100px;
@@ -24,6 +31,7 @@
 }
 a
 {
-  color: rgb(255, 140, 0);
+
+  color: black;
   text-decoration: none;
 }
