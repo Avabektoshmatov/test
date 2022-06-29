@@ -1,3 +1,9 @@
+body
+{
+  font-family: 'Oleo Script', cursive;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Titan One', cursive
+}
 .salom
 {
   width: 115px;
@@ -15,6 +21,7 @@
 }
 .test
 {
+  width: 1000px;
   background-color: black;
   color: white  ;
 }
