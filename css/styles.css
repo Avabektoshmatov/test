@@ -1,54 +1,124 @@
-body
-{
+body {
   font-family: 'Roboto Condensed', sans-serif;
 }
-.font
-{
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav{
+  display: flex;
+ align-items: center;
+}
+.nav-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.link{
+background-color: #FF7500;
+}
+.test-one{
+background-color: black;
+color: white;
+}
+.font {
   font-size: 100px;
 }
-h2
-{
-  font-size: 40px;
-}
-.salom
-{
+
+.salom {
   width: 115px;
   height: 22px;
-  background-color:  #FF7500;
+  background-color: #FF7500;
+  color: white;
+  border: 2px solid red;
+}
+
+.h2{
+font-size: 50px;
+}
+.icons1{
+  background-color:
+    rgba(250, 158, 10, 0.162) ;
+    width: 100px;
+    height: 100px;
+}
+.icons2{
+  background-color:
+    rgba(250, 158, 10, 0.162) ;
+    width: 100px;
+    height: 100px;
+}
+.icons3{
+  background-color:
+    rgba(250, 158, 10, 0.162) ;
+    width: 100px;
+    height: 100px;
+}
+.right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.hr{
+  width: 100px;
+  height: 5px;
+  background-color: #FF7500;
+  color: #FF7500;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test {
+  display: flex;
+  width: 100000px;
+  background-color: black;
   color: white;
 }
-h3
-{
-  font-size: 40px;
+.jump{
+  display: flex;
+  justify-content: space-between;
 }
-.icons
-{
-  width: 100px;
-  height: 100px;
-  background-color:
-  rgba(255, 117, 0, 0.2)
-   ;
-}
-.test
-{
-  width: 1000px;
-  background-color: black;
-  color: white  ;
-}
-.rasmjon
-{
+.rasmjon {
   object-fit: contain;
   background-color: black;
 }
-.box
-{
+.box {
   width: 1000px;
-  background-color: black ;
+  background-color: black;
   color: white;
 }
-a
-{
 
+a {
+  list-style: none;
   color: black;
   text-decoration: none;
+}
+.nomi{
+display: flex;
+justify-content: space-between;
+}
+.foter
+{
+  list-style: none;
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+}
+.ikons{
+  display: flex;
+  align-items: center;
+}
+.linklar{
+  display: flex;
+justify-content: left;
+}
+footer{
+  background-color: rgba(248, 248, 248, 1);
 }
