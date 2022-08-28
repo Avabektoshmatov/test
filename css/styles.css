@@ -1,6 +1,4 @@
 body {
-  padding-right: 170px;
-  padding-left: 170px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 p{
@@ -54,6 +52,9 @@ padding-bottom: 475px;
 padding-left: 170px;
 }
 .hr-one{
+  margin-bottom: 26px;
+  width: 80px;
+  height: 3px;
    padding-right: 1190px;
 }
 .main-hr{
@@ -75,6 +76,7 @@ padding-left: 170px;
   border: 2px solid red;
 }
 .pad{
+  margin-top: 36px;
   padding: 10px;
 
 }
@@ -120,7 +122,7 @@ font-size: 50px;
   padding-right: 66px;
     display: flex;
     justify-content: space-between;
-    align-items: ce;
+    align-items: center;
 }
 
 .test {
@@ -133,21 +135,24 @@ font-size: 50px;
   padding-right: 66px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 16px;
   line-height: 24px ;
+  margin-bottom: 0px;
 }
 .rasmjon {
+  outline: auto;
   object-fit: contain;
   background-color: black;
 }
 .book{
-  width: 1100px;
-  height: 419px;
+  margin-left: 170px;
   border-radius: 12px;
   padding-left: 180px;
-  padding-top: 200px;
+  margin-bottom: 316px;
+  width: 1100px;
+  height: 419px;
   background-color: black;
-  padding-bottom: 150px;
 }
 .top{
   padding-left: 40px;
@@ -163,6 +168,8 @@ font-size: 50px;
 
 }
 .radius{
+  width: 440px;
+  height: 440px;
   border-radius: 20px;
 }
 
